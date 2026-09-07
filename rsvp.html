@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500&display=swap" rel="stylesheet">    
+
+    <title>RSVP • Scout & Nick</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header class="header">
+        <div class="brand">
+            <img src="hydrangea.png" class="flower left">
+            <span class="names">Scout &amp; Nick</span>
+            <img src="hydrangea.png" class="flower right">
+        </div>
+
+        <div class="nav-container">
+            <nav class="nav-links">
+                <a href="index.html">HOME</a>
+                <a href="ourstory.html">OUR STORY</a>
+                <a href="registry.html">REGISTRY</a>
+                <a href="schedule.html">SCHEDULE</a>
+                <a href="index.html#travel">TRAVEL</a>
+                <a href="index.html#thingstodo">THINGS TO DO</a>
+                <a href="faqs.html">FAQs</a>
+            </nav>
+
+            <a href="rsvp.html" class="rsvp-btn">RSVP</a>
+        </div>
+    </header>
+
+
+    <!--everything same until here-->
+
+
+
+    <!--rsvp info-->
+    <section class="rsvp">
+        <div class="rsvp-container">
+            <h1 class="rsvp-title">RSVP</h1>
+
+            <p class="rsvp-intro">
+                Search name to RSVP.<br>
+                <em>Example: Use "John Smith". Do not use "Smith Family" or "The Smiths"</em>
+            </p>
+
+            <div class="rsvp-search">
+                <input 
+                    type="text" 
+                    id="nameInput" 
+                    placeholder="Enter your full name..."
+                >
+                <button onclick="searchName()">Search</button>
+            </div>
+
+            <p id="result" class="rsvp-result"></p>
+        </div>
+    </section>
+
+
+
+    <!--everything same after here-->
+
+
+
+    <section class="venues-bar">
+        <div class="venues-container">
+
+            <div class="venue-block">
+                <span class="venue-label">Ceremony</span>
+                <h3>Holy Spirit Catholic Church</h3>
+                <p>
+                    4465 Northside Dr NW<br>
+                    Atlanta, GA 30327
+                </p>
+            </div>
+
+            <div class="venue-block">
+                <span class="venue-label">Reception</span>
+                <h3>Emory Conference Center</h3>
+                <p>
+                    1615 Clifton Rd NE<br>
+                    Atlanta, GA 30329
+                </p>
+            </div>
+
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <h2 class="footer-brand">Scout &amp; Nick</h2>
+
+            <div class="footer-links">
+                <a href="index.html">HOME</a>
+                <a href="registry.html">REGISTRY</a>
+                <a href="schedule.html">SCHEDULE</a>
+                <a href="index.html#travel">TRAVEL</a>
+                <a href="faqs.html">FAQs</a>
+            </div>
+
+            <div class="footer-contact">
+                <p>Email: ms.gilreath@gmail.com</p>
+                <p>Wedding Date: May 22, 2027 • 2:00 PM</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="rsvp.js"></script>
+</body>
+</html>
